@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-top{
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-top ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.card-top ul li{
+    margin-bottom: 15px;
+}
+
+.card-top ul li input{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #dbdbdb;
+}
+
+.card-top ul .btn{
+    width: 300px;
+    padding: 10px;
+    background-color: #b2dffc;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.card-top p{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #8e8ea0;
+    font-size: .8rem;
+    position: relative;
+}
+
+.card-top p::before{
+    content: '';
+    position: absolute;
+    width: 40%;
+    background-color: #8e8ea0;
+    height: 1px;
+    top: 50%;
+    left: 5px;
+}
+
+.card-top p::after{
+    content: '';
+    position: absolute;
+    width: 40%;
+    background-color: #8e8ea0;
+    height: 1px;
+    top: 50%;
+    right: 5px;
+}
+
+.card-top .loged{
+    list-style: none;
+}
+
+.card-top .loged i{
+    margin-right: 5px;
+    color: #38678d;
+}
+
+.card-top .loged a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: .8rem;
+    color: #38678d;
+}
+
+.card-top .loged .forgetPass a{
+    color: #003783;
+}
+
+.card-bottom{
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: .8rem;
+}
+
+.card-bottom a{
+    text-decoration: none;
+    color: #00a2f8;
+}
